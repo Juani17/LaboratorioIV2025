@@ -1,0 +1,50 @@
+{
+  
+  "compilerOptions": {
+    /* Lenguaje y entorno */
+    "target": "es2016",                             /* Versión de JavaScript que se genera. */
+    "module": "commonjs",                           /* Sistema de módulos a usar (CommonJS para Node.js). */
+    "rootDir": "src",                               /* Carpeta raíz de tus archivos fuente. */
+    "outDir": "dist",                               /* Carpeta de salida de los archivos compilados. */
+    "moduleResolution": "node",                     /* Resolución de módulos al estilo Node.js. */
+    "esModuleInterop": true,                        /* Permite importar módulos CommonJS con 'import x from'. */
+    "resolveJsonModule": true,                      /* Permite importar archivos .json. */
+    "sourceMap": true,                              /* Genera archivos .map para depurar con TypeScript. */
+    "forceConsistentCasingInFileNames": true,       /* Enforce el uso consistente de mayúsculas en los imports. */
+    "strict": true,                                 /* Habilita todas las comprobaciones estrictas. */
+    "skipLibCheck": true                            /* Omite el chequeo de tipos en los archivos .d.ts. */
+
+    /* Configuraciones avanzadas (puedes habilitarlas según necesidades futuras) */
+    // "incremental": true,                         /* Guarda info para compilaciones incrementales. */
+    // "tsBuildInfoFile": "./.tsbuildinfo",         /* Ruta del archivo con info de compilación incremental. */
+    // "composite": true,                           /* Requerido para usar referencias entre proyectos. */
+
+    // "lib": ["es2020"],                           /* Bibliotecas que se incluyen por defecto. */
+    // "jsx": "react",                              /* Si usás React, habilitá esto. */
+    // "declaration": true,                         /* Genera archivos .d.ts (declaraciones de tipo). */
+    // "removeComments": true,                      /* Elimina comentarios en los archivos compilados. */
+
+    // "noImplicitAny": true,                       /* Marca error cuando no se infiere un tipo. */
+    // "strictNullChecks": true,                    /* Considera null y undefined como valores distintos. */
+    // "noUnusedLocals": true,                      /* Advierte si hay variables locales no usadas. */
+    // "noUnusedParameters": true,                  /* Advierte si hay parámetros de función no usados. */
+    // "noImplicitReturns": true,                   /* Error si falta return en alguna rama. */
+    // "noFallthroughCasesInSwitch": true,          /* Previene errores en switch sin break. */
+    // "baseUrl": "./",                             /* Base para importaciones relativas. */
+    // "paths": { "*": ["node_modules/*"] },        /* Alias de rutas para imports. */
+    // "allowJs": true,                             /* Permite incluir archivos .js en el proyecto. */
+    // "checkJs": true,                             /* Verifica errores en archivos JavaScript. */
+    // "useUnknownInCatchVariables": true,          /* Hace que catch(e) tenga tipo unknown. */
+    // "alwaysStrict": true,                        /* Emite 'use strict' en todos los archivos. */
+    // "downlevelIteration": true,                  /* Soporte completo para iteradores. */
+    // "preserveConstEnums": true,                  /* No elimina los enums declarados como const. */
+    // "noEmitOnError": true,                       /* No compila si hay errores de tipo. */
+    // "importHelpers": true,                       /* Usa tslib para helpers comunes. */
+    // "emitDecoratorMetadata": true,               /* Emite metadatos para decoradores. */
+    // "experimentalDecorators": true,              /* Habilita decoradores experimentales. */
+    // "allowSyntheticDefaultImports": true,        /* Permite imports default aún si no existen. */
+    // "isolatedModules": true                      /* Asegura que cada archivo pueda compilarse por sí solo. */
+  },
+  "include": ["src"],                               /* Carpeta que debe compilarse. */
+  "exclude": ["node_modules", "dist"]               /* Carpeta a ignorar por el compilador. */
+}
