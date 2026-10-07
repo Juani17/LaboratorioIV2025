@@ -5,3 +5,18 @@ yarn-debug.log
 yarn-error.log
 .DS_Store
 Thumbs.db
+
+# Local environment and generated files
+.env
+.env.*
+!.env.example
+node_modules/
+.idea/
+.gradle/
+*.log
+.DS_Store
+Thumbs.db
+*.iml
+*.iws
+*.ipr
+/mongo/
