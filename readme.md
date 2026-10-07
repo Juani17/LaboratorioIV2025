@@ -1,21 +1,17 @@
-Ejecuta el siguiente comando para instalar las dependencias:
+# Servidor estático con Express
 
-    ```bash
-    npm install
-    ```
+Práctica de Laboratorio IV con Node.js, Express, dotenv y env-var. Sirve la aplicación estática incluida en `public/dist/`.
 
 ## Ejecución
 
-1. En la misma terminal, ejecuta el siguiente comando para iniciar el servidor:
+```bash
+npm install
+cp .env.example .env
+npm run dev
+```
 
-    ```bash
-    npm start
-    ```
+En PowerShell: `Copy-Item .env.example .env`. `PORT` establece el puerto y `PUBLIC_PATH` la carpeta pública; la plantilla utiliza `3080` y `public`. Ejecutar desde la raíz del repositorio. El script disponible es `dev`; no existe un script `start`.
 
-2. El servidor estará disponible en `http://localhost:3080` (o el puerto configurado).
+`public/dist/` se conserva porque el servidor lo necesita y este repositorio no contiene las fuentes para reconstruir ese frontend.
 
-## Notas
-
-- Asegúrate de que el puerto que utiliza el servidor no esté ocupado.
-- Puedes modificar la configuración del servidor en el archivo `config.js` (si aplica).
-
+Material académico histórico. El código y los archivos estáticos originales se mantienen sin cambios.
